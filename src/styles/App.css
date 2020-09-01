@@ -1,0 +1,1334 @@
+@font-face{font-family:"Avenir Next forINTUITthin";
+    src:url("../styles/Fonts/avenir-100.woff") format("woff2"),
+    url("../styles/Fonts/avenir-100.woff") format("woff");font-weight:100;font-style:normal;font-display:swap}
+@font-face{font-family:"Avenir Next forINTUITthinItalic";
+    src:url("../styles/Fonts/avenir-100.woff2") format("woff2"),
+    url("../styles/Fonts/avenir-100.woff2") format("woff");font-weight:100;font-style:italic;font-display:swap}
+@font-face{font-family:"Avenir Next forINTUITregular";
+    src:url("../styles/Fonts/avenir-400.woff2") format("woff2"),
+    url("../styles/Fonts/avenir-400.woff2") format("woff");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Avenir Next forINTUITmedium";
+    src:url("../styles/Fonts/avenir-500.woff2") format("woff2"),
+    url("../styles/Fonts/avenir-500.woff2") format("woff");font-weight:500;font-style:italic;font-display:swap}
+@font-face{font-family:"Avenir Next forINTUITdemi";
+    src:url("../styles/Fonts/avenir-600.woff2") format("woff2"),
+    url("../styles/Fonts/avenir-600.woff2") format("woff");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"Avenir Next forINTUITbold";
+    src:url("../styles/Fonts/avenir-700.woff2") format("woff2"),
+    url("../styles/Fonts/avenir-700.woff2") format("woff");font-weight:700;font-style:italic;font-display:swap}
+
+.IntuitThin {
+    font-family: "Avenir Next forINTUITthin" !important;
+}
+
+.IntuitThinItalic {
+    font-family: "Avenir Next forINTUITthinItalic"!important
+}
+
+.IntuitRegular {
+    font-family:"Avenir Next forINTUITregular"!important;
+}
+
+.IntuitDemi {
+    font-family: "Avenir Next forINTUITdemi" !important;
+}
+
+.IntuitMedium {
+    font-family: "Avenir Next forINTUITMedium" !important;
+}
+
+.Intuitbold {
+    font-family: "Avenir Next forINTUITbold"!important;
+}
+
+.intuitFantMediumSize{
+    font-family: "Avenir Next forINTUITMedium" !important;
+    font-size: 1.25rem !important;
+    font-weight: 500 !important;
+}
+
+.doAeTX {
+    text-align: left !important;
+}
+
+.hKZvxp {
+    color: #393a3d !important;
+}
+
+.MuiTableCell-head {
+    font-family: 'Avenir Next forINTUITdemi' !important;
+}
+.MuiTableCell-root {
+    font-family: 'Avenir Next forINTUITregular' !important;
+}
+/* .btn-block{
+    width: 101% !important;
+} */
+
+.App {
+    margin-left: 1% !important;
+    width: 98% !important;
+    padding-right: 2rem !important;
+    margin-bottom: 1% !important;
+    padding-top: 1.5em !important;
+}
+
+
+.table {
+    margin-bottom: 0 !important;
+    border-radius: 4px !important;
+}
+/* @font-face {
+    font-family: 'AvenirNext forINTUIT Demi';
+    src: local('AvenirNext forINTUIT Demi'), url(./fonts/AvenirNextforINTUIT-Demi.otf) format('otf');
+   }  */
+
+.inline-control-label {
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem !important;
+}
+
+.legacy-source-dropdown .input-group-btn {
+    width: 1% !important;
+}
+
+.inline-form {
+    margin-bottom: 1rem !important;
+    margin-top: 1rem;
+}
+
+.row-margin-bottom {
+    margin-bottom: 0.5rem !important;
+}
+
+.tr-even-row {
+    background-color: #f9f9f9;
+}
+
+.tr-odd-row {
+    background-color: #ffffff;
+
+}
+
+.channel-wizard {
+    /*box-shadow: 1px 1px 2px 1px #777777;*/
+    padding: 1rem 1rem;
+}
+
+.channel-wizard-content {
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+/* Logos */
+
+.logo-next-arrow, .logo-prev-arrow {
+    top: 45%;
+    position: absolute;
+    font-size: 3em;
+}
+
+.logo-info {
+    margin-right: 2em;
+}
+
+.logo-carousel img {
+    box-shadow: 0 0 2px 1px #eeeeee;
+    background-position: 0px 0px, 10px 10px;
+    background-size: 20px 20px;
+    background-image: linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%), linear-gradient(45deg, #eee 25%, white 25%, white 75%, #eee 75%, #eee 100%);
+}
+
+.logo-carousel img:hover {
+    box-shadow: 0 0 3px 2px #dddddd;
+}
+
+.expanded-form {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 0 !important;
+    margin: -5px;
+    border: 1px solid #e6ecf0;
+    border-radius: 2px;
+}
+
+.expanded-form:hover {
+    border-color: #aab8c2;
+    z-index: 2;
+}
+
+.inline-checkbox {
+    margin-left: 1em;
+}
+
+.glyphicon-fold {
+    margin-right: 1em;
+}
+
+.inline-input {
+    width: 100% !important;
+}
+
+table {
+    table-layout: fixed;
+}
+
+table td {
+    word-wrap: break-word;
+    white-space: normal !important;
+}
+
+h1 {
+    text-align: center;
+}
+
+.panel-body {
+    padding: 0.5rem 2.5rem 0.85rem 2rem;
+}
+
+.panel {
+    margin-bottom: 1.25rem !important;
+}
+
+.panel-title {
+    padding: 0.6rem 1rem;
+    font-size: 1.2rem;
+}
+
+.panel-heading {
+    padding: 0 0 !important;
+}
+
+hr {
+    background-color: #dddddd;
+    color: #dddddd;
+}
+
+label.required::after {
+    content: ' *';
+    margin-right: 2px;
+    color: red;
+}
+
+.authentication-method {
+    margin-bottom: 2rem;
+    margin-top: -1rem;
+}
+
+.rbt-input {
+    height: auto !important;
+}
+
+/* Wizard and Steps */
+
+/* wizard */
+
+.wizard {
+    height: 3rem;
+    min-height: 3rem;
+}
+
+.wizard .head, .wizard .tail {
+    background-color: transparent;
+    border-width: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.wizard .head {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+
+.wizard .tail {
+    border-left-color: transparent;
+}
+
+.wizard .start, .wizard .end, .wizard .text {
+    height: 3rem;
+    line-height: 3rem;
+}
+
+.wizard .start {
+    width: 1.5rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.wizard .end {
+    width: 1rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.wizard .overlap {
+    margin-left: -2.6rem;
+}
+
+/* sub-wizard */
+
+.sub-wizard {
+    height: 2rem;
+    min-height: 2rem;
+    white-space: nowrap;
+    margin: 0.5rem 0 0.8rem 10rem;
+}
+
+.sub-wizard .head, .sub-wizard .tail {
+    background-color: transparent;
+    border-width: 1rem 1rem 1rem 1rem;
+}
+
+.sub-wizard .head {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+
+.sub-wizard .tail {
+    border-left-color: transparent;
+}
+
+.sub-wizard .start, .sub-wizard .end, .sub-wizard .text {
+    height: 2rem;
+    line-height: 2rem;
+}
+
+.sub-wizard .start {
+    width: 1.5rem;
+    border-radius: 0.4rem 0 0 0.4rem;
+}
+
+.sub-wizard .end {
+    width: 0.5rem;
+    border-radius: 0 0.4rem 0.4rem 0;
+}
+
+.sub-wizard .overlap {
+    margin-left: -1.65rem;
+}
+
+/* common wizard */
+
+.wizard-active div {
+    background-color: #337ab7;
+    border-color: #337ab7;
+    color: white;
+}
+
+.wizard-inactive div {
+    background-color: #e9ebee;
+    border-color: #e9ebee;
+    color: black;
+}
+
+.wizard-active:hover div, .wizard-inactive:hover div {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.head, .tail {
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.text {
+    padding-right: 1rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+.step div {
+    float: left;
+}
+
+.step {
+    display: inline-block;
+}
+
+/* END Wizard */
+
+.wizard-current-page {
+    padding: 1rem;
+}
+
+.button-dark-green {
+    background-color: #398439;
+    border-color: #398439;
+    color: white;
+}
+
+.button-dark-green:hover, .button-dark-green:focus {
+    background-color: #255625 !important;
+    border-color: #255625 !important;
+    color: white !important;
+}
+
+.button-dark-green[disabled]:hover {
+    background-color: #255625;
+    border-color: #255625;
+    color: white;
+}
+
+.button-gray {
+    background-color: #E5E5E5;
+    border-color: #CCCCCC !important;
+}
+
+.button-gray:hover, .button-gray:focus {
+    background-color: #D5D5D5 !important;
+    border-color: #AAAAAA !important;
+}
+
+.button-gray[disabled]:hover {
+    background-color: #E1E1E1;
+    border-color: #AAAAAA;
+}
+
+.button-gray[disabled] {
+    opacity: 0.40 !important;
+}
+
+.input-loading {
+    animation: loader-animation .6s infinite linear;
+    border: 2px solid rgba(200, 200, 200, 0.8);
+    border-radius: 50%;
+    border-top-color: #1f8dd6;
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin-top: -10px;
+    position: relative;
+    top: 50%;
+}
+
+.input-loading-hidden {
+    animation: loader-animation .6s infinite linear;
+    border: 1px solid inherit;
+    border-radius: 50%;
+    border-top-color: inherit;
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin-top: -10px;
+    position: relative;
+    top: 50%;
+}
+
+.input-loading-container {
+    margin-left: -33%;
+}
+
+.input-loader {
+    flex: 1;
+    position: relative;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #337ab7;
+    background-color: #337ab7;
+    border-radius: 0.25rem;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.button-big {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    line-height: 1.1111111;
+    border-radius: 4px
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: #EDEDF3;
+}
+
+.inline-form-control-full-width {
+    width: 100% !important;
+}
+
+.json-pretty {
+    line-height: 1.3;
+    color: #111111;
+}
+
+.json-pretty .json-key {
+    color: #025aa5;
+}
+
+.json-pretty .json-value {
+    color: #255625;
+}
+
+.json-pretty .json-string {
+    color: #ac2925;
+}
+
+.json-pretty .json-boolean {
+    color: #1b6d85;
+}
+
+.alert-primary {
+    color: #555555;
+    background-color: #eeeeee;
+    border-color: #cccccc;
+}
+
+.input-group-btn button {
+    padding: 0.45rem 1rem;
+    margin-top: 0;
+}
+
+.dismissable .close, .alert-dismissible .close {
+    position: relative;
+    top: 0;
+    right: -2rem;
+    color: inherit;
+}
+
+/*
+    Max width before the tables get nasty
+    This query will take effect for any screen smaller than 760px
+*/
+
+@media only screen and (max-width: 760px) {
+
+    .App {
+        margin-left: 0;
+        width: 100%;
+        box-shadow: none;
+        padding-right: 0;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        border: 1px solid #ccc;
+    }
+
+    td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50% !important;
+    }
+
+    td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    /*
+        Label the data for search result table
+    */
+    .provider-search-result-table td:nth-of-type(1):before {
+        content: "Provider Name";
+        font-weight: bold;
+    }
+
+    .provider-search-result-table td:nth-of-type(2):before {
+        content: "Provider ID";
+        font-weight: bold;
+    }
+
+    .provider-search-result-table td:nth-of-type(3):before {
+        content: "Primary Source";
+        font-weight: bold;
+    }
+
+    .provider-search-result-table td:nth-of-type(4):before {
+        content: "Legacy ID";
+        font-weight: bold;
+    }
+
+    .provider-search-result-table td:nth-of-type(5):before {
+        content: "Active";
+        font-weight: bold;
+    }
+
+}
+
+/* Overriding the parent's CSS to increase the width of the toggle button */
+.react-toggle-track {
+    width: 4rem;
+    height: 1.5rem;
+    padding: 0;
+    border-radius: 2rem;
+    background-color: #4D4D4D;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.react-toggle--checked .react-toggle-thumb {
+    left: 2.6rem;
+    border-color: #19AB27;
+}
+
+.react-toggle-thumb {
+    height: 1.5rem;
+    width: 1.5rem;
+    top: 0;
+    left: 0;
+}
+
+.provider-search-providerid {
+    float: right;
+}
+
+.provider-search-result {
+    display: block;
+}
+
+.table-cell-dropdown {
+    overflow-y: scroll !important;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list {
+    padding: 1px;
+    vertical-align: middle;
+}
+
+.react-datepicker-wrapper {
+    width: 100% !important;
+}
+
+.table-cell-edit-datetime {
+    /*overflow: scroll !important;*/
+    width: 30rem;
+    height: 32rem;
+}
+
+.rdtPicker {
+    width: 100% !important;
+}
+
+.rdtPicker th.rdtSwitch {
+    width: 60% !important;
+}
+
+.loading {
+    margin: 15% 25% 35% 50%;
+    position: absolute;
+    opacity: 0.5;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loading-wheel {
+    width: 20px;
+    height: 20px;
+    border-width: 30px;
+    border-radius: 50%;
+    -webkit-animation: spin 1s linear infinite;
+}
+
+.style-2 .loading-wheel {
+    border-style: double;
+    border-color: #888 transparent;
+}
+
+.full-width-input .rbt-input {
+    width: 100%;
+    height: 3rem;
+}
+
+.full-width-input {
+    margin-top: 1rem;
+}
+
+.channel-services-edit-datetime {
+    position: initial !important;
+}
+
+.channel-maintenance-edit-datetime {
+    position: initial !important;
+}
+
+.jsondiffpatch-deleted .jsondiffpatch-property-name, .jsondiffpatch-deleted pre,
+.jsondiffpatch-modified .jsondiffpatch-left-value pre, .jsondiffpatch-textdiff-deleted {
+    text-decoration: none !important;
+}
+
+.entity-token {
+    color: #383d41;
+    background-color: #f1f5ff;
+    border: 1px solid #cccccc;
+    border-radius: 10rem;
+    display: inline-block;
+    line-height: 1em;
+    margin: 0 3px 3px 0;
+    padding: 0.2rem 0.75rem;
+    position: relative;
+}
+
+.help-text {
+    transition: all 1s ease;
+}
+
+.help-block {
+    font-style: italic;
+    color: #737373
+}
+
+.addButton {
+    margin-bottom: 5px
+}
+
+.dropdown-header {
+    color: brown;
+}
+
+.enable-help-button {
+    border-color: #ccc !important;
+}
+
+.fieldset-input-form {
+    border: 0.4px solid #ccc;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.legend-fieldset {
+    display: block;
+    border: none;
+    padding-left: 0.3rem;
+    padding-right: 0.2rem;
+    font-size: 1.18rem;
+    margin-bottom: -1rem;
+    max-width: 12.8%;
+}
+
+.diff-block {
+    height: auto;
+    max-height: 20rem;
+    overflow: auto;
+    padding: 0.5rem;
+}
+
+.s-alert-hide {
+    display: none;
+}
+
+.glyphicon-menu-right {
+    color: #337ab7;
+}
+
+.id-span {
+    font-size: 1.1rem;
+}
+
+.alert-dismissable .close, .alert-dismissible .close {
+    position: relative;
+    top: -0.5rem;
+    right: -0.5rem;
+    color: inherit;
+}
+
+.provider-diff-modal {
+    width: 90% !important;
+    top: 2% !important;
+    height: 90% !important;
+}
+
+.diff-block-modal {
+    height: auto;
+    overflow: auto;
+    padding: 0.5rem;
+}
+
+/* ProviderAdmin navbar should have a higher z-index than
+the PartnerAuth navbar in the embedded mode. .navbar-toolbar is
+the css class for PartnerAuth navbar. */
+.navbar-toolbar {
+    z-index: auto;
+}
+
+#provider-admin-navbar .navbar-header {
+    padding-top: 3px !important;
+    padding-bottom: 0px !important;
+    /* height: 30px; */
+}
+
+#provider-admin-navbar .navbar-brand {
+    padding-top: 3px !important;
+    padding-bottom: 0px !important;
+    height: 30px;
+}
+
+#provider-admin-navbar .navbar-nav > li > a {
+    padding-top: 3px !important;
+    padding-bottom: 0px !important;
+    height: 30px;
+}
+
+#provider-admin-navbar .navbar-nav > li > a > b {
+    font-weight: normal;
+}
+
+#provider-admin-navbar .navbar-nav > li {
+    padding-top: 10px;
+}
+
+#provider-admin-navbar .navbar-nav > li.selected {
+    border-bottom: 2px solid white;
+    background: #3D85C5;
+}
+
+
+#provider-admin-navbar > .container {
+    max-width: 100%;
+
+    /* Embedded PartnerAuth navbar applies this style on
+    ProviderAdmin navbar and causes misalignment of tabs. To fix this,
+    this css property should be unset. */
+    justify-content: unset;
+}
+
+.navbar {
+    min-height:30px !important;
+}
+
+/* .navbar > .container {
+    width: auto;
+    margin-right: initial;
+} */
+
+.resourcesWidth {
+    margin-right: 20%;
+    width: 80%;
+    padding: 1%;
+    background: white;
+}
+
+.col-lg-10{
+padding-left: 0px !important;
+}
+
+.col-lg-2{
+    padding-right: 0px !important;
+}
+.cjRVeY {
+    height: auto !important;
+}
+
+.resourcesWidth h1, .resourcesWidth h2, .resourcesWidth h3, .resourcesWidth h4, .resourcesWidth h5 {
+    text-align: left;
+}
+
+div .resourcesWidth p {
+    text-align: left;
+    margin-top: 1rem !important;
+}
+
+.resourcesWidth ul {
+    margin-top: 2rem !important;
+}
+
+.cards h1, .cards h2,.cards h3,.cards h4,.cards h5,.cards h6 {
+    margin-top: 0rem !important;
+    margin-bottom: 1%;
+}
+
+.cards .download {
+    margin-top: 1rem !important;
+}
+
+.cardContent {
+    padding: 1%;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.docAvailability h1 {
+    text-align: left;
+}
+
+.listStyle {
+    color: #0077c5;
+}
+
+button a, button a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a :hover {
+    color: black;
+}
+
+div .resourcesWidth .listStyle p {
+    color: black;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem;
+}
+
+.welcome {
+    background-color: #f4f5f8;
+        width: 105%;
+        padding: 2%;
+        margin-top: -3%;
+        margin-left: -2%;
+    }
+.welcomeText {
+    margin-left: 11%;
+    margin-right: 28%;
+}
+.homeApp {
+    padding-left: 11%;
+    padding-right: 17%;
+    background-color: white;
+    width: 105%;
+    margin-left: -3%;
+}
+
+.homeHeader {
+    text-align: left;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 4%;
+}
+
+/* for w2file upload */
+.fileUploadContainer {
+    height: 340px;
+    background-color: white;
+  }
+
+   .upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+
+   .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    width:100%;
+    display:block !important ;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  .customBtn {
+      border: 1px solid #d4d7dc;
+      background-color: #d4d7dc;
+      border-radius: 8px;
+      width: 180px;
+  }
+
+   .ortext {
+    background-color: lightgray;
+    border-radius: 50%;
+    padding: 3px;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #666666;
+  }
+
+
+   .Drop-your-zip-archi {
+      height: 24px;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #666666;
+      margin-top: 61px;
+  }
+
+    .primary-partner {
+      height: 40px;
+      opacity: 0.64;
+      letter-spacing: normal;
+      color: #666666;
+  }
+
+    .W-2-data-formatted {
+      height: 80px;
+      line-height: 1.43;
+      letter-spacing: normal;
+      color: #000000;
+  }
+
+  .List-item {
+    height: 40px;
+    line-height: 2.30;
+    letter-spacing: normal;
+    color: #000000;
+    list-style: none;
+    padding-left: 0px;
+}
+
+ul.List-item > li::before {
+    color: #0077c5;
+    content: "\2022";
+    font-weight: bold;
+    display: inline-block;
+    width: 2em;
+  }
+    .success {
+      background-color: #5cb85c !important;
+  }
+
+  .demo-app {
+    /* font-family: Arial, Helvetica Neue, Helvetica, sans-serif; */
+    font-size: 14px;
+  }
+
+  .demo-app-top {
+    margin: 0 0 3em;
+  }
+
+  .demo-app-calendar {
+    margin: 0 auto;
+    width: 86%;
+
+  }
+
+  .calenderHead {
+    margin-bottom: 2%;
+    text-align: left;
+    margin-left: 7%;
+  }
+
+  .calendarFoot {
+    margin-bottom: 2%;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: 2%
+  }
+  .fc-event-container {
+    position: relative;
+    z-index: -1;
+    text-align: center;
+  }
+
+  .fc-view-container {
+    background-color: white;
+  }
+
+  .fc-toolbar {
+      justify-content: left !important;
+  }
+
+  .fc-dayGrid-view .fc-day-number {
+    padding: 10px !important;
+}
+
+  .fc-unthemed td.fc-today {
+    background: none !important ;
+}
+    .fc td , .fc th{
+        border-color: black !important;
+    }
+
+    .fc-toolbar h2 {
+        font-size: 14px !important;
+        margin: 0;
+        font-family: 'Avenir Next forINTUITmedium';
+        border: 1px solid #d4d7dc !important;
+        padding-top: 10% !important;
+        padding-bottom: 10% !important;
+        background: white!important;
+    }
+
+    .fc-button-primary {
+        color: black !important;
+        background-color: #ffffff !important;
+        border-color: #d4d7dc !important;
+    }
+
+
+  .fc-unthemed td.fc-today {
+    background: none !important ;
+}
+  .fc-next-button{height: 40px; border-radius: 0px !important;}
+  .fc-prev-button{height: 40px; border-radius: 0px !important;}
+/*.fc-day-header{padding: 15px !important;}*/
+/*.fc-day{background-color: #f4f5f8 !important;}*/
+/*.fc td , .fc th{border-color: #fff !important;}*/
+   .fc td , .fc th{border-color: #F4F5F8 !important;}
+
+    .fc-toolbar h2 {
+        font-size: 14px !important;
+        margin: 0;
+        font-family: 'Avenir Next forINTUITmedium';
+        border: 1px solid #d4d7dc !important;
+        padding-top: 10% !important;
+        padding-bottom: 10% !important;
+        background: white!important;
+    }
+
+    .fc-button-primary {
+        color: black !important;
+        background-color: #ffffff !important;
+        border-color: #d4d7dc !important;
+    }
+
+
+  .fc-event {
+    position: relative;
+    display: block;
+    font-size: .85em;
+    line-height: 1.4;
+    border-radius: 3px;
+    /*border: 1px solid #2ca01c !important;*/
+  }
+
+  .fc-event .fc-content {
+      color:white;
+  }
+
+ .fc-day-grid-event {
+    margin: 0;
+  }
+
+  .fc th {
+    text-align: right !important;
+    background: white !important;
+    padding-right: 1% !important;
+  }
+
+  .fc td {
+      background: white;
+  }
+  .fc-scroller{
+      overflow: hidden !important
+  }
+
+  .bouton{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #00BCD4;
+}
+
+.emailLink {
+    background: #d4d7dc;
+    padding: 1%;
+    width: 150px;
+    border-radius: 5px;
+}
+.dropzone-container {
+    height: 100%;
+    padding: 0px !important;
+    position: relative;
+ }
+
+ .dropzone {
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     left: 0;
+    bottom: 0;
+ }
+
+ .ortext {
+    background-color: lightgray;
+    border-radius: 50%;
+    padding: 6px;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 12px;
+    color: #666666;
+    margin: auto
+  }
+
+  .help-text {
+    text-align: center;
+    color: #666666;
+    margin-top: 5px;
+}
+
+.titleNav {
+    position: absolute;
+    left: 0;
+}
+
+.padding-zero {
+    padding: 0px !important;
+}
+
+.MuiTableCell-paddingCheckbox {
+    width: 48px;
+    padding: 0 0 0 4px;
+    font-weight: bolder !important;
+    font-size : 1rem !important;
+    color: black !important;
+}
+
+.MuiPaper-root.MuiPaper-elevation2.MuiPaper-rounded {
+    z-index: 0;
+}
+
+.MuiTypography-body1 {
+    margin-left: -8px !important;
+}
+.paragraphModal{color: #999999; font-size:1.1rem; font-weight: 400;}
+.paragraph{color: #363636;}
+.textArea{ padding: 10px 12px;border-radius: 4px; border: 1px solid rgba(141,144,150,1); width: 100%}
+.textAreaWarning{padding: 10px 12px;border-radius: 4px; border: 1px solid #f44336; width: 100%}
+.textAreaWarning:focus {outline-color: #f44336;}
+.paragraphLabel{color: #666666; font-size: 14px}
+.paragraphSpan{margin-left: 1rem; color:rgb(0, 119, 197);font-size: 15px;cursor:pointer;}
+.imgPreview{text-align: center; min-height: 34px; width: auto; border-radius: 6px; border: 1px solid #eceef1}
+.fields_textbox{padding:8px 10px; width: 100%; border-radius: 4px; border: 1px solid rgba(141,144,150,1); font-weight: 100}
+.fields_text_warn{padding:8px 10px; width: 100%; border-radius: 4px; border: 1px solid red; font-weight: 100}
+.fields_textbox_warn:focus {outline-color: red !important;}
+.btn-deleteConfirm{border: none !important;outline: none !important;}
+.btn-deleteConfirm:focus{outline: none !important;}
+.div-marginTop{margin-top: 10px}
+.urlTextValidateError{border: 1px solid #f44336 !important}
+.urlTextValidateError:focus{outline-color: #f44336 !important}
+
+.striped-header th{/*for table header*/
+    border-bottom: none !important;
+}
+
+.actions-icons {
+    color: #0077C5;
+    margin-right: 10px;
+}
+
+.MuiTableRow-root[mode="add"] {
+    background-color: #ebf9ff;
+}
+
+#contacts table.MuiTable-root{
+    margin-bottom: 60px;
+}
+
+#contacts div.MuiToolbar-root{
+    position: absolute !important;
+    bottom: 0;
+    width: 100%;
+    padding-left: 0;
+}
+
+button.MuiIconButton-root:hover {
+    background-color: transparent !important;
+}
+
+.MuiButton-containedPrimary {
+    background-color: #0077c5 !important;
+    min-width: 97px !important;
+}
+.btn-Previous-Next{border:1px solid #E0E0E0;cursor: pointer;height: 31px; width: 36px;background: #d4d7dc;border-radius: 0px !important;}
+.btn-Previous-Next:focus {outline: none !important;}
+.scorecard-dropdown {width: 100px;height: 31px;opacity: 0.9;border: solid 1px #d4d7dc !important;background-color: #ffffff;border-radius:0px !important;}
+.time-period-dropdown {width: 173px;height: 31px;opacity: 0.9;border: solid 1px #d4d7dc !important;background-color: #ffffff;border-radius:0px !important;}
+#partner-scorecard-dropdown-addon > span.caret{float: right;margin-top: 8px}
+.spanLink{color:blue;text-decoration: underline;cursor: pointer;}
+.btn-disabled{border:1px solid #E0E0E0;cursor: pointer;height: 32px; width: 36px;background: #d4d7dc !important;border-radius: 0px !important;}
+.seasonTotal{background-color: #f4f5f8 !important;font-size: medium !important;color: #393a3d !important;height: 4px;text-align: center !important;padding-left: 0 !important}
+.cell{font-size: medium !important;color: #393a3d !important;height: 4px !important;background: #fff !important;text-align: center !important;padding-left: 0 !important;}
+.cell_setting{font-size: medium !important;color: black !important;height: 4px !important;background: #fff !important;text-align: center !important;padding-left: 0 !important;}
+.btnExport{color: #fff !important;font-family: inherit;box-sizing: border-box;position: relative;outline: none;padding: 0;margin: 0;border: none;background-color: #0077c5;border-radius: 4px;cursor: pointer;fill: #ffffff;min-height: 32px;min-width: 100px;}
+.btnExportDisable{color: #fff !important;font-family: inherit;box-sizing: border-box;position: relative;outline: none;padding: 0;margin: 0;border: none;background-color: #d4d7dc;border-radius: 4px;cursor: pointer;fill: #ffffff;min-height: 32px;min-width: 100px;}
+.partner-score-card-table{min-width: 1605px;}
+.table_scorecard_setting{min-width: 650px;}
+.react-datepicker-popper{z-index: 9 !important;}
+.padding-Left{padding-left: 10px}
+.rbt-aux .rbt-close {margin-top: -20px !important;}
+.MuiTableCell-head  {
+    font-family: "Avenir Next forINTUITdemi" !important;
+}
+
+nav.MuiTypography-body1{
+    font-family: 'Avenir Next forINTUITregular' !important;
+    font-size: 0.875rem !important;
+    margin-left : 0 !important;
+}
+
+/* .MuiSvgIcon-root :hover {
+    color: white;
+} */
+
+.partner-score-card-table{
+    min-Width: 1605px;
+}
+
+#branding tr td:last-child div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+
+#branding button:hover{
+    background-color:rgba(0, 0, 0, 0.1) !important;
+    color: rgb(0, 119, 197) !important;
+}
+
+#branding {
+    padding: 16px 0px 0px;
+}
+
+.MuiRadio-colorPrimary.Mui-checked {
+    color: #0077c5 !important;
+}
+
+.Branding_add_provider:hover, .Branding_add_provider span:hover {
+    color: #fff !important;
+    text-decoration:none !important;
+}
+
+.HistoryIcon:hover, FileCopy:hover, EditIcon:hover {
+    background-color: none !important
+}
+
+.requiredField:after {
+    content:" *";
+    color: red;
+ }
+
+ .directConnectSelect {
+     width: 80%;
+
+ }
+
+ .pinDeliveryDays {
+    margin-top: 7px;
+    margin-left: -6px;
+ }
+
+ .productFamilySelection {
+    margin-left:15px;
+ }
+.oauth-macro-typeahead {
+    width: 85%;
+    position: relative;
+}
